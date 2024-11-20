@@ -554,15 +554,206 @@ video {
   display: none;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[48px\] {
+  height: 48px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[132px\] {
+  width: 132px;
+}
+
+.w-\[496px\] {
+  width: 496px;
+}
+
+.w-\[158px\] {
+  width: 158px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.rounded-\[16px\] {
+  border-radius: 16px;
+}
+
+.rounded-\[25px\] {
+  border-radius: 25px;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#408CFF1A\] {
+  background-color: #408CFF1A;
+}
+
+.bg-\[\#4058FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 88 255 / var(--tw-bg-opacity, 1));
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[1\] {
+  color: 1;
+}
+
+.text-\[\#4058FF\] {
+  --tw-text-opacity: 1;
+  color: rgb(64 88 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#121722B2\] {
+  color: #121722B2;
+}
+
+.text-\[15\] {
+  color: 15;
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-\[496px\] {
+    width: 496px;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
 }
